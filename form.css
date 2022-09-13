@@ -1,0 +1,232 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:25%;
+    left: 44.5%;
+    z-index: 1;
+    
+
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:22%;
+    left: 49.5%;
+    z-index: 1;
+
+}
+
+
+form{
+    
+    background : linear-gradient(rgb(3, 154, 223), rgb(5, 122, 255));
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:18%;
+    left: 40%;
+    bottom: 18%;
+    width: 400px;
+   border:none;
+   border-radius: 10px;
+   
+  
+   
+}
+.caixa-inputs{
+    margin-top: 130px;
+ 
+  
+}
+.caixa-inputs section{
+    margin: 10px;
+   
+   
+}
+.input-n1 label{
+   
+    display: flex;
+   margin-bottom:  5px;
+   color: white;
+ 
+
+
+}
+.input-n2 label {
+    display: flex;
+    margin-bottom:  5px;
+    color: white;
+
+}
+.input-n3 label{
+    display: flex;
+    margin-bottom:  5px;
+    color: white;
+
+}
+.input-n1 input {
+    width: 300px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border:none;
+    outline: none;
+}
+.input-n2 input{
+    width: 300px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border:none;
+    outline: none;
+
+}
+.input-n3 input{
+    width: 300px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border:none;
+    outline: none;
+
+}
+.botao{
+    display:flex;
+}
+ button {
+    left:12%;
+    position:absolute;
+    top:70%;
+    width: 140px;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    font-size: 1em;
+    border-radius: 15px;
+    border:none;
+  
+   
+
+}
+
+footer p{
+    display: flex;
+    position:absolute;
+    top:80%;
+    left: 20%;
+    color: white;
+
+}
+footer img{
+    display: flex;
+    position:absolute;
+    top:88%;
+    left: 35%;
+    padding-top: 1em;
+   
+
+}
+footer #twiter {
+    display: flex;
+    position:absolute;
+    top:88%;
+    left: 45%;
+    padding-top:1em;
+
+
+}
+
+/* modo de se fazer responsividade */
+@media screen and (max-width: 300px){
+   form {
+     right: 0%;
+     margin-bottom:0%;
+      left: 0px;
+       width:auto;
+       height: 100%;
+       border-radius: 10px;
+     }
+
+     .imagem {
+      
+        left: 50%;       
+     }   
+      #titulo {
+        left:18%;
+
+      }
+      footer #twiter {
+
+         margin-left: 1em;
+      }
+      .caixa-inputs{
+         width: auto;
+         left:0%;
+         right: 0%;
+
+       
+        
+
+      }
+      .input-n1 input{
+        margin-top: 8px;
+
+      }
+      .input-n2 input {
+        margin-top: 8px;
+      }
+      .input-n3 input {
+        margin-top: 8px;
+      }
+      button{
+        left:7.5%;
+       
+      }
+      footer p {
+        left: 16%;
+      }
+}
+
+@media screen and (max-width: 420px){
+    form {
+        top:0px;
+        right: 0px;
+        left:0px;
+        width: auto;
+        height: 100%;   
+    }
+    .caixa-inputs{
+        margin-top: 50% ; 
+    }
+    .imagem {
+        left: 45%;
+        top:8%;
+    }
+  
+    #titulo{
+      
+        top:78px;
+        left:20%;
+    }
+    .input-n1 input{
+        margin-top: 8px;
+
+      }
+      .input-n2 input{
+        margin-top: 8px;
+
+      }
+      .input-n3 input{
+        margin-top: 8px;
+
+      }
+      button{
+        left:7.5%;
+       
+      }
+      footer #twiter {
+
+        margin-left: 1em;
+     }
+}
+
+
+

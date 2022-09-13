@@ -1,0 +1,140 @@
+
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    width: 400px;
+    top:32%;
+    left:46%;
+    
+
+}
+.imagem{
+    position: absolute;
+    width: 400px;
+    top:22%;
+    left:48%
+
+}
+header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    width: 400px;
+    top:37%;
+    left:46%
+
+
+}
+.caixa-inputs{
+    
+    box-shadow: 0 0 5px black;
+   
+   padding-top: 50px;
+   padding-bottom: 40px ;
+   height: 13cm;
+   border-radius: 20px;
+   
+   
+}
+form {
+    width: 400px;
+    position: absolute ;
+     top:20%;
+    left: 40%;
+  
+ 
+}
+
+
+.caixa-input1{
+display: flex;
+margin-left: 40px;
+margin-top: 8em;
+
+
+}
+.caixa-input1 input {
+    width: 90%;
+    padding: 5px;
+    margin-top: 5em;
+   border:none;
+   outline: none; 
+    border-bottom: 2px solid black;
+   
+
+
+
+
+}
+.caixa-input1{
+    position: relative;
+
+}
+.caixa-input1 label{
+    position: absolute;
+    bottom: 1.6em;
+    left:0px;
+  
+}
+.caixa-input {
+    display: flex;
+  margin-left:40px;
+ margin-top:10px;
+}
+.caixa-input{
+    position: relative;
+}
+ .caixa-input label {
+    
+    position: absolute;
+    bottom: 1.6em;
+    left:0px;
+}
+.caixa-input input {
+    margin-top:20px;
+    width: 90%;
+    padding: 5px;
+   
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+    
+}   
+button{
+    position: absolute;
+    height: 2.5em;
+    width: 130px;
+    left:10%;
+    margin-top:7.4em;
+    font-size: 16px;
+    background:rgb(24, 91, 235);
+    border:none;
+    border-radius: 15px;
+    color:white;
+    
+    
+ 
+
+}.checkbox label{
+   position: absolute;
+   left: 15%;
+   margin-top:1.5em;
+ 
+}
+.checkbox input {
+    position: absolute;
+    left:9%;
+    margin-top:2em;
+}
+a {
+    position: absolute;
+    left:50%;
+    margin-top:1.5em;
+
+}
+
+
+
+
+
+
+
